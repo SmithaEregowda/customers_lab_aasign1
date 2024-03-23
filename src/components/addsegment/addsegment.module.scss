@@ -1,0 +1,36 @@
+.addSegmentWrapper{
+    padding: 1rem 0;
+    .inputField{
+        padding: 1rem 0;
+        .label{
+            font-weight: 300;
+            font-size: 1.2rem;
+            color: #575757;
+            padding: 0 0  0.5rem;
+        }
+    }
+    .info{
+        font-weight: 200;
+        font-size: 1rem;
+        color: #575757;
+        line-height: 20px;
+        padding: 0 0 0.5rem;
+    }
+    .addschema{
+        display: grid;
+        grid-gap: 1rem;
+    }
+    .addschemaLink{
+        color: rgb(9, 241, 210);
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .listSchema{
+        border: 2px solid blue;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        grid-gap: 1rem;
+        margin: 0 0 1rem;
+    }
+}

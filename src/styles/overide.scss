@@ -1,0 +1,28 @@
+.ant-drawer-header{
+    background-color: #88c8cf;
+}
+
+.ant-drawer-title{
+    color: white !important;
+    font-size: 1.2rem !important;
+}
+.ant-drawer-close{
+    color: white !important; 
+}
+
+.ant-drawer-footer{
+    padding: 1rem !important;
+    .footer{
+        display: flex;
+        grid-gap: 1rem;
+        .ant-btn-primary{
+            background-color: rgb(18, 189, 166) !important;
+            color: white !important;
+        }
+        .ant-btn-default{
+            color: red !important;
+        }
+    }
+   
+}
+
