@@ -56,7 +56,8 @@ const AddSegment = ({open,onClose}) => {
         const requestOptions = {
             method: 'Post',
             headers: {
-              'Content-Type': 'application/json'
+              'Content-Type': 'application/json',
+              "Access-Control-Allow-Origin": "*"
             },
             body: JSON.stringify(payload)
           }

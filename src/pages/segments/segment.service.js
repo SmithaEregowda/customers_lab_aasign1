@@ -1,5 +1,5 @@
 export  function AddSchema(requestOptions) {
-    const data =fetch(`https://webhook.site/1d5866cb-9750-4dbc-8217-c046c739a02d`,requestOptions)
+    const data =fetch(`/api/22aff83f-80a3-4a09-b79f-f5659f40ca46`,requestOptions)
        .then(res => {
            return res.json();
        }).then(data=>{return data;} )
